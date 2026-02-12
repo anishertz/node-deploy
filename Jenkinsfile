@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        IMAGE_NAME = "node-deploy-app"
+        IMAGE_NAME = "node-deploy"
         CONTAINER_NAME = "express-api"
         PORT = "8088"
     }
